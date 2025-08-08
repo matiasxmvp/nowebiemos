@@ -33,10 +33,15 @@ Bot de Discord que cuenta automáticamente las veces que se dice "no webiemos" y
 ## Despliegue en Railway
 
 1. **Conecta tu repositorio de GitHub a Railway**
-2. **Configura la variable de entorno:**
+2. **Asegúrate de usar la rama `main`** (Railway detectará automáticamente el proyecto)
+3. **Configura la variable de entorno:**
    - Ve a tu proyecto en Railway
    - Agrega la variable `DISCORD_TOKEN` con tu token del bot
-3. **Railway detectará automáticamente el `package.json` y ejecutará `npm start`**
+4. **Railway detectará automáticamente el `package.json` y `nixpacks.toml` para ejecutar `npm start`**
+
+### Archivos de Configuración para Railway
+- `package.json` - Define las dependencias y el script de inicio
+- `nixpacks.toml` - Configuración específica de Nixpacks para Railway
 
 ## Comandos del Bot
 
@@ -60,6 +65,7 @@ El bot también detecta automáticamente cuando alguien escribe "no webiemos" y 
 ```
 ├── index.js          # Código principal del bot
 ├── package.json      # Dependencias y scripts
+├── nixpacks.toml     # Configuración de Railway/Nixpacks
 ├── .env.example      # Plantilla de variables de entorno
 ├── .gitignore        # Archivos a ignorar en git
 └── README.md         # Este archivo
