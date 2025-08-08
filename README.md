@@ -40,7 +40,12 @@ Bot de Discord que cuenta automáticamente las veces que se dice "no webiemos" y
 
 ## Comandos del Bot
 
-- `!nowebiemos` - Muestra el contador total de veces que se ha dicho la frase
+- `!nowebiemos` o `!nw` - **Incrementa** el contador en +1 y muestra el total
+- `!contador` o `!count` - **Solo consulta** el total actual sin incrementar
+
+### Detección Automática
+
+El bot también detecta automáticamente cuando alguien escribe "no webiemos" y sus variantes en el chat, incrementando el contador sin necesidad de comandos.
 
 ## Obtener Token de Discord
 

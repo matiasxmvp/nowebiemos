@@ -7,11 +7,16 @@
     "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["discord", "bot", "contador"],
+  "keywords": [
+    "discord",
+    "bot",
+    "contador"
+  ],
   "author": "matiasxmvp",
   "license": "ISC",
   "description": "Bot de Discord que cuenta las veces que se dice 'no webiemos' y sus variantes",
   "dependencies": {
-    "discord.js": "^14.21.0"
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1"
   }
 }
