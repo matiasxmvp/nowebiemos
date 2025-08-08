@@ -1,0 +1,17 @@
+{
+  "name": "botdc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "contador"],
+  "author": "matiasxmvp",
+  "license": "ISC",
+  "description": "Bot de Discord que cuenta las veces que se dice 'no webiemos' y sus variantes",
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
